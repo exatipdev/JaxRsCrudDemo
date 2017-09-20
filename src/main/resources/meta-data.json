@@ -1,0 +1,18 @@
+[
+{
+ "_comment": "This is meta data to create account, user fields other then this _comment field",
+ "accountId" : "String",
+ "customerName" : "String",
+ "currency" : "String",
+ "amount" : "double"
+},
+{
+ "_comment": "This is meta data to update account, user fields other then this _comment field",
+ "accountId" : "String",
+ "customerName" : "String",
+ "currency" : "String",
+ "amount" : "double"
+}
+
+
+]

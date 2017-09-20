@@ -14,12 +14,12 @@
 
 #################################
 1. get meta data
-URL : http://localhost:8080/JaxRSCrudDemo/v1/accounts/account/metadata
+URL :http://localhost:8080/v1/accounts/account/metadata
 Method: GET
 ##################################
 
 2. Create Account
-URL : http://localhost:808/JaxRSCrudDemo/v1/accounts/account/
+URL : http://localhost:8080/v1/accounts/account/
 Method: POST
 Body: raw (application/json)
 Json:
@@ -33,19 +33,19 @@ Json:
 ##################################
 
 3. Get list of all Accounts
-URL: http://localhost:8082/JaxRSCrudDemo/v1/accounts/account/
+URL: http://localhost:8080/v1/accounts/account/
 Method: GET
 
 ##################################
 
 4. Get Account detail by its id
-URL: http://localhost:8082/JaxRSCrudDemo/v1/accounts/account/1
+URL: http://localhost:8080/v1/accounts/account/1
 Method: GET
 
 ##################################
 
 5. Update the Account
-URL: http://localhost:808/JaxRSCrudDemo/v1/accounts/account/
+URL:http://localhost:8080/v1/accounts/account/
 Method: Patch
 Body: raw (application/json)
 Json:
